@@ -115,7 +115,12 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .quoted{
+    margin-top: 0;
     font-style: normal;
     font-weight: 800;
     font-size: 22px;
+    position: relative;
+    left: 22em;
+    bottom: 2em;
+    
 }
