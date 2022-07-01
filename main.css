@@ -5,6 +5,13 @@
     font
 }
 
+section{
+    margin: 0 0 0 0;
+}
+div{
+    margin: 0 0 0 0;
+}
+
 body{
     background-color: #1F2937;
 }
@@ -61,7 +68,8 @@ a:link, a:visited, a:hover, a:active {
 /* INFO AREA */
 
 .random-info{
-    font-size: 36px;
+    margin: 1em auto;
+    font-size: 32px;
     font-weight: bolder;
     color: #1F2937;
 }
@@ -69,21 +77,45 @@ a:link, a:visited, a:hover, a:active {
 .info-area{
     background-color: #fff;
     text-align: center;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    margin: 0;
 }
 .squircle-area{
     display: inline-block;
     margin: 0 1.5em 0 1.5em;
+    
 }
 
 .squircle{
-    border-color: #3882F6;
+    border-color: #0080ff;
     border-style: groove;
-    width: 8em;
-    height: 8em;
+    width: 9em;
+    height: 9em;
     border-radius: 1em;
 }
 
 .squircle-info{
-    width: 8em;
-    text-align: left;
+    width: 9em;
+    text-align: center;
+    color: #6e6e6e;
+}
+
+/* QUOTE AREA */
+
+.quote-area{
+    margin: 0;
+    padding: 3em 8em;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+
+}
+
+.quoted{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
 }
