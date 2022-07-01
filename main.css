@@ -53,8 +53,6 @@ a:link, a:visited, a:hover, a:active {
     margin: 7em 8.1em;
     width: 65em;
     display: inline-flex;
-    border-style: groove;
-    border-color: #ff0000fc;
 }
 
 .hero-button{
@@ -134,4 +132,46 @@ a:link, a:visited, a:hover, a:active {
     left: 22em;
     bottom: 2em;
     
+}
+
+/* CALL-TO-ACTION AREA */
+
+.cta-area{
+    padding: 5em 10em;
+    background-color: white;
+}
+
+.cta-bg{
+    background-color: #3882F6;
+    border-radius: 7px;
+    color: #fff;
+    padding: 2em 7em;
+    display: flex;
+}
+
+.cta-text{
+    margin-right: 3em;
+}
+
+.cta-title{
+    font-size: 22px;
+    margin-bottom: 0;
+}
+
+.cta-subtitle{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.647);
+}
+
+.cta-btn{
+    background-color: #00000000;
+    border-color: white;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    border-style: solid;
+    width: 120px;
+    height: 35px;
+    margin: auto 0 auto auto;
 }
