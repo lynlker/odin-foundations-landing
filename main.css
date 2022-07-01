@@ -51,8 +51,10 @@ a:link, a:visited, a:hover, a:active {
 
 .hero-area{
     margin: 7em 8.1em;
-    width: 40em;
+    width: 65em;
     display: inline-flex;
+    border-style: groove;
+    border-color: #ff0000fc;
 }
 
 .hero-button{
@@ -64,6 +66,15 @@ a:link, a:visited, a:hover, a:active {
     width: 8em;
     height: 2.5em;
     border-radius: 5px;
+}
+
+.hero-image{
+    background-color: #737373;
+    color: #fff;
+    text-align: center;
+    margin: 3em 5em 0 10em;
+    width: 60%;
+    height: 15em;
 }
 /* INFO AREA */
 
