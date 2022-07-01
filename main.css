@@ -2,7 +2,6 @@
 
 *{
     font-family: "Roboto", sans-serif;
-    font
 }
 
 section{
@@ -174,4 +173,16 @@ a:link, a:visited, a:hover, a:active {
     width: 120px;
     height: 35px;
     margin: auto 0 auto auto;
+}
+
+/* COPYRIGHT AREA */
+
+.copyright-area{
+    padding: 5em auto;
+    text-align: center;
+}
+
+.copyright-text{
+    margin: 3em auto;
+    color: rgba(255, 255, 255, 0.667);
 }
