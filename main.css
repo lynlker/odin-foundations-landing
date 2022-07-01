@@ -30,20 +30,21 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .navbar{
-    margin: 1.5em 0 0 13.8em;
-    display: flex;
-    justify-content: center;
+    margin: 0 8em;
+    display: inline-block;
+    text-align: center;
 }
 
 .navbar-logo{
-    margin-right: 27em;
+    margin-right: 15em;
     color: #F9FAF8;
     font-size: 24px;
     font-weight: bold;
 }
 
 .hero-area{
-    margin: 7em 15em;
+    margin: 7em 8.1em;
+    width: 40em;
     display: inline-flex;
 }
 
